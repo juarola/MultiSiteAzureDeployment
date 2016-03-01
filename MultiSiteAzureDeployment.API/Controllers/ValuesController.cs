@@ -8,7 +8,6 @@ using MultiSiteDeployment.Common;
 
 namespace MultiSiteAzureDeployment.API.Controllers
 {
-    [Authorize]
     public class ValuesController : ApiController
     {
         // GET api/values
