@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@using MultiSiteDeployment.Common
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>@(ViewBag.Title + " " + Class1.DoStuff())</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
